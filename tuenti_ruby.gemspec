@@ -10,4 +10,9 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.homepage    =
     'http://rubygems.org/gems/tuenti_ruby'
+
+  s.add_development_dependency 'rake'
+  s.add_development_dependency 'rspec'
+  s.add_dependency 'mechanize'
+
 end
